@@ -54,6 +54,16 @@ The low-level hardware environment was successfully audited using native Linux d
 * **Secondary Mass Storage**: WDC WD10EZEX-60Z 931.5GB Hard Disk Drive (HDD)
 
 3. Technical Accomplishments & AI-Assisted Resolutions
+
+4. 
+#### 📊 Empirical Session Logs (Proof of Continuous Research)
+The continuous, iterative engineering process and remote connection history were verified via the native Linux `last` utility kernel log:
+
+![Linux System Session Log](./last_command_log.png)
+
+*Figure 1: Audited SSH connection timeline tracking multi-tab terminal calibration and systemic troubleshooting sessions across the research timeline.*
+
+
 * **Remote Session Stability**: Resolved an initial `Operation timed out` connectivity hurdle by auditing internal IP address shifts via `hostname -I`, re-establishing a seamless secure shell (SSH) client link from the MacBook host.
 * **Package Manager Recovery (`dpkg` Restructuring)**: Fixed a fatal configuration bottleneck where `med-config` installation collapsed, resulting in a system-wide lock (`Sub-process /usr/bin/dpkg returned an error code 1`). Cooperated with the AI assistant to manually purge corrupted dependencies, execute `sudo dpkg --configure -a`, and force-clean the cache, restoring total system utility.
 * **Pipeline Activation**: Confirmed the operational integrity of the compiled STRaitRazor core (`./str8rzr`), verifying that it can cleanly ingest configuration profiles (`ForenSeqv1.27.config`) without execution faults.
@@ -70,4 +80,9 @@ To bypass terminal-level network blockades and algorithmic filtering, a hybrid t
 * **SFTP Data Ingestion**: Relocate the verified genomic FASTQ assets from the client environment directly into the server node (`~/STRaitRazor`) using the Secure Copy Protocol (`scp`).
 * **Full-Scale Multi-Threaded Stress Test**: Execute the target benchmarking engine with a valid, high-throughput dataset to capture authentic hardware saturation spikes via `htop` and collect final runtime metrics.
 
-* 
+
+6. 🙏 Acknowledgments & Epistemic Reflection
+* **Bridging the Human Capability Gap**: This research session was significantly catalyzed by collaborative synergy with advanced Artificial Intelligence models. The AI functioned not merely as a passive coding assistant, but as an interactive, real-time debugging partner that empowered an adolescent researcher to systematically dismantle complex Linux kernel configuration lockouts and parsing anomalies.
+* **Tribute to Preceding Scholars**: Deepest gratitude is extended to the senior computational biologists, open-source maintainers, and foundational developers of the STRaitRazor pipeline and the Ubuntu ecosystem. Their pioneering dedication to creating open-access genomic tools provided the shoulder of giants upon which this decentralized forensic research stands.
+* **Democratic Insight**: This collaborative milestone underscores the core thesis of this research: that the strategic integration of democratized AI utilities can effectively bridge the esoteric "knowledge barrier" in computer science, enabling the next generation of global student researchers to engage in high-level bioinformatics without institutional elite constraints.
+
