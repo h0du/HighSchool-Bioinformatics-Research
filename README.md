@@ -34,3 +34,40 @@ Throughout the infrastructure setup, I encountered two critical engineering bott
 
 - ---
 *Special Thanks: Deep appreciation to my AI research assistant for guiding me through the inner workings of Linux architecture, structurally translating cryptic server codes, and collaborating as a patient and invaluable peer mentor on my first step into bioinformatics.*
+
+
+
+📆 Daily Research Log: August 19, 2026
+
+🛠️ Engineering Task: Infrastructure Calibration, Subsystem Repair, and Pipeline Input Validation
+
+1. Objective
+* Formalized the computational parameters of the legacy server architecture to establish an empirical baseline for resource-constrained benchmarking.
+* Addressed systemic installation dependencies and critical kernel packet lockouts within the Ubuntu package management ecosystem.
+* Investigated the processing constraints of the STRaitRazor v2 forensic engine through iterative simulation payload testing.
+
+2. Quantitative Systemic Specification (Verified Architecture)
+The low-level hardware environment was successfully audited using native Linux diagnostic commands (`lscpu` and `lsblk`) to document the strict baseline boundaries of this cost-efficient, legacy workstation:
+* **Processor (CPU)**: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz (4 Physical Cores / 8 Logical Threads, Haswell Architecture)
+* **Primary Volatile Workspace**: 8GB DDR3 RAM System Aggregate
+* **Primary Storage (OS Drive)**: TOSHIBA THNSNF12 119.2GB Solid-State Drive (SSD)
+* **Secondary Mass Storage**: WDC WD10EZEX-60Z 931.5GB Hard Disk Drive (HDD)
+
+3. Technical Accomplishments & AI-Assisted Resolutions
+* **Remote Session Stability**: Resolved an initial `Operation timed out` connectivity hurdle by auditing internal IP address shifts via `hostname -I`, re-establishing a seamless secure shell (SSH) client link from the MacBook host.
+* **Package Manager Recovery (`dpkg` Restructuring)**: Fixed a fatal configuration bottleneck where `med-config` installation collapsed, resulting in a system-wide lock (`Sub-process /usr/bin/dpkg returned an error code 1`). Cooperated with the AI assistant to manually purge corrupted dependencies, execute `sudo dpkg --configure -a`, and force-clean the cache, restoring total system utility.
+* **Pipeline Activation**: Confirmed the operational integrity of the compiled STRaitRazor core (`./str8rzr`), verifying that it can cleanly ingest configuration profiles (`ForenSeqv1.27.config`) without execution faults.
+
+4. Identified Technical Barriers & Empirical Failures
+* **NCBI Endpoint Access Blockade**: Network data acquisition via automated terminal requests (`wget`/`curl`) directly to NCBI/NIH storage servers triggered consistent `403 Forbidden` and `404 Not Found` response anomalies due to strict remote security firewalls and altered directory trees.
+* **Algorithmic Input Filtering (The 0.004s Short-Circuit)**: Scaled dummy testing payloads (from 1 read up to 1,000,000 synthetic reads) consistently terminated in less than 0.008 seconds without prompting any extended multi-core CPU activation in `htop`.
+* **Scientific Root Cause**: The synthetic strings lacked the authentic sequencing header architecture (e.g., Illumina machine coordinates) and short tandem repeat (STR) flanking signatures, causing the engine to dynamically skip the dataset at the preprocessing boundary. 
+* **Current Status**: The processing of the authentic *NIST Forensic Open Dataset* has been deferred to the next session due to these transport and protocol-matching constraints.
+
+5. Strategic Roadmap for Next Research Session
+To bypass terminal-level network blockades and algorithmic filtering, a hybrid transport architecture will be deployed next:
+* **Client-Side Extraction**: Download the authentic uncompressed *NIST mds2-2157 / Forensic Open Dataset* payload directly via the MacBook client's graphical web browser using the mirrored HTTPS backup channels of the European Bioinformatics Institute (EBI).
+* **SFTP Data Ingestion**: Relocate the verified genomic FASTQ assets from the client environment directly into the server node (`~/STRaitRazor`) using the Secure Copy Protocol (`scp`).
+* **Full-Scale Multi-Threaded Stress Test**: Execute the target benchmarking engine with a valid, high-throughput dataset to capture authentic hardware saturation spikes via `htop` and collect final runtime metrics.
+
+* 
