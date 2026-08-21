@@ -124,14 +124,24 @@ The low-level hardware environment was successfully audited and modified using n
 
 The continuous, iterative engineering process and remote connection history were logged using the native terminal utilities:
 
-#### 📊 Figure 1: Verifiable Kernel Logs & Remote Session Timestamps (August 21)
-![Forensic Execution Log](./요기에_오늘_캡처한_이미지_파일명.png)
+
+
+#### 📊 Figure 2: Verifiable Kernel Logs & Remote Session Timestamps (August 21)
+![Forensic Execution Log](./last_command_log_3.png)
 
 * **Figure 1 Description:** This terminal log records the continuous remote engineering connection history via the native Linux `wtmp` binary ledger for August 21, 2026. The timestamp matrix documents an accumulated workspace allocation exceeding **04 hours 20 minutes** of direct remote infrastructure manipulation. This multi-session execution spans infrastructure sandboxing (18:06), environment de-isolation (21:14), and active parallel thread scaling diagnostics (21:51), providing tamper-proof empirical verification of autonomous pipeline benchmarking.
 
---
+---
 
 #### 📊 Figure 2: Historical Infrastructure Connection Tables (August 19 Archive)
+
+
+
+
+
+
+
+
 
 #### 📂 [System Auditing & Resource Metrics Check]
 ```bash
