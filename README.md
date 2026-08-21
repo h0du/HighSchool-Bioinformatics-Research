@@ -145,15 +145,6 @@ The continuous infrastructure calibration and iterative benchmarking session pro
 
 ---
 
-#### 📊 Figure 3: Historical Infrastructure Connection Tables (August 19 Archive)
-
-
-
-
-
-
-
-
 
 
 #### 📂 [System Auditing & Resource Metrics Check]
