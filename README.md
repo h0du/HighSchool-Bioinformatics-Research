@@ -93,25 +93,25 @@ To bypass terminal-level network blockades and algorithmic filtering, a hybrid t
 
 🔨 **Engineering Task: Sandbox Isolation, Parallel Thread Scaling, and Dual-Axis Performance Mapping**
 
-### 1. Objective
+1. Objective
 * Throttled system volatile memory tables at the kernel level to establish an isolated sandbox for budget-restrained forensic profiling.
 * Investigated the computational elasticity and processing bottlenecks of a 1.1 GB high-throughput mixture FASTQ dataset.
 * Engineered an automated dual-axis visualization module to map the empirical constraints of hardware thread optimization vs. data bus saturation.
 
-### 2. Quantitative Systemic Specification (Verified Architecture)
+2. Quantitative Systemic Specification (Verified Architecture)
 The low-level hardware environment was successfully audited and modified using native Linux diagnostic protocols to document the exact boundary metrics of this legacy workstation:
 * **Processor (CPU):** Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz (4 Physical Cores / 8 Logical Threads, Haswell Architecture)
 * **Primary Volatile Workspace:** 8GB DDR3 RAM (Calibrated down to **6.2GiB Available Workspace** via GRUB kernel memory modification)
 * **Primary Storage (OS Drive):** TOSHIBA THNSNF12 119.2GB Solid-State Drive (SSD)
 * **Secondary Mass Storage:** WDC WD10EZEX-60Z 931.5GB Hard Disk Drive (HDD)
 
-### 3. Technical Accomplishments & AI-Assisted Resolutions
+3. Technical Accomplishments & AI-Assisted Resolutions
 * Enforced a strict 6.2GiB system memory boundary by injecting the bootloader parameter `mem=8G` directly into the `/etc/default/grub` control matrix.
 * Terminated asynchronous process thread locks and resolved interface freezing caused by terminal stdout data overflow using kernel signal management tools (`pkill -9`).
 * Shifted the benchmarking engine trajectory to a unified sequence metrics protocol (`FastQC`) to bypass structural configuration matrix omissions (`No markers found`).
 * Deployed a 3-tier scalability matrix (1T vs 4T vs 8T) to mathematically prove the performance saturation threshold of physical cores vs. Hyper-Threading virtual allocation on legacy systems.
 
-#### 📈 Figure 1: Multi-Threaded Scalability & Memory Footprint Analysis
+📈 Figure 1: Multi-Threaded Scalability & Memory Footprint Analysis
 ![Forensic Benchmark Chart](./forensic_benchmark_chart.png)
 
 
@@ -120,14 +120,14 @@ The low-level hardware environment was successfully audited and modified using n
 
 ---
 
-### 📊 Empirical Session Logs (Proof of Continuous Research)
+📊 Empirical Session Logs (Proof of Continuous Research)
 
 The continuous, iterative engineering process and remote connection history were logged using the native terminal utilities:
 
 
 
 
-### 📈 Empirical Research Duration & Session Timestamps (Verifiable Kernel Logs - August 21)
+📈 Empirical Research Duration & Session Timestamps (Verifiable Kernel Logs - August 21)
 The continuous infrastructure calibration and iterative benchmarking session profiles for August 21, 2026, were successfully compiled via the active system logs:
 
 * **Active Engineering Session Alpha:** 18:06 – 21:39 (Continuous System Maintenance & Pipeline Setup | **Duration: 03 hours 33 minutes**)
@@ -138,7 +138,7 @@ The continuous infrastructure calibration and iterative benchmarking session pro
 
 *Total Empirical Research Workspace Allocation for August 21, 2026, exceeds **04 hours 20 minutes** of direct remote infrastructure manipulation.*
 
-#### 📊 Figure 2: Verifiable Kernel Logs & Remote Session Timestamps (August 21 Profile)
+📊 Figure 2: Verifiable Kernel Logs & Remote Session Timestamps (August 21 Profile)
 ![Forensic Execution Log](./last_command_log_3.png)
 
 * **Figure 2 Description:** This terminal log records the continuous remote engineering connection history via the native Linux `wtmp` binary ledger for August 21, 2026. The timestamp matrix documents an accumulated workspace allocation exceeding **04 hours 20 minutes** of direct remote infrastructure manipulation. This multi-session execution spans infrastructure sandboxing (18:06), environment de-isolation (21:14), and active parallel thread scaling diagnostics (21:51), providing tamper-proof empirical verification of autonomous pipeline benchmarking.
@@ -159,7 +159,7 @@ htop
 free -h
 ```
 
-#### 🎛️ [Kernel Workspace Constriction (RAM Sandbox Configuration)]
+🎛️ [Kernel Workspace Constriction (RAM Sandbox Configuration)]
 ```bash
 # Open the bootloader control matrix to append hardware restriction flags
 sudo nano /etc/default/grub
@@ -172,7 +172,7 @@ sudo update-grub
 sudo reboot
 ```
 
-#### 🛡️ [Interface De-isolation & Rogue Process Purging]
+🛡️ [Interface De-isolation & Rogue Process Purging]
 ```bash
 # Terminate deadlocked or looping background engines consumption loops
 sudo pkill -9 str8rzr
@@ -181,7 +181,7 @@ sudo pkill -9 str8rzr
 reset
 ```
 
-#### 📈 [Multi-Threaded Benchmark Matrices (1T vs 4T vs 8T Experiments)]
+📈 [Multi-Threaded Benchmark Matrices (1T vs 4T vs 8T Experiments)]
 ```bash
 # Run Experiment 1: Single-Thread Baseline (Throttled Core Analysis)
 /usr/bin/time -v fastqc -t 1 forensic_heavy_target.fastq 2> benchmark_t1.txt
