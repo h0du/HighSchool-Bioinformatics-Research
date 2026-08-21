@@ -115,7 +115,6 @@ The low-level hardware environment was successfully audited and modified using n
 ![Forensic Benchmark Chart](./forensic_benchmark_chart.png)
 
 
-
 * **Figure 1 Description:** This dual-axis performance metric visualizes the critical threshold of parallel scaling under a strict 6.2 GB RAM constraint. The primary axis (dark slate bars) establishes that scaling from 1 to 4 threads yields a 2.07x execution velocity increase, indicating a severe hardware I/O data bus bottleneck. Conversely, scaling from 4 to 8 threads (Hyper-Threading zone) registers a negligible 0.01-second delta, demonstrating core saturation. The secondary axis (red line) indicates that over-allocating logical threads merely introduces memory overhead (increasing from 274.8 MB to 297.8 MB) without generating empirical computational parallel power.
 
 
